@@ -1,5 +1,5 @@
 import cv2
-cap = cv2.VideoCapture('C:/Users/machk/gitkraken/SmartTrafficLights/video.avi')
+cap = cv2.VideoCapture('C:/Users/machk/gitkraken/SmartTrafficLights/carstest.mp4')
 car_cascade = cv2.CascadeClassifier('C:/Users/machk/gitkraken/SmartTrafficLights/cars.xml')
 while True:
     ret, frame = cap.read()
